@@ -1,5 +1,10 @@
 # Documentação - Aplicativo de Compra de Jogos
 
+<h1>Integrantes do projeto</h1>
+
+- Allysson L. Pereira - 23214290021
+- João Victor Lourenço - 23214290035
+- Clayton Rocha de Barros Jr. - 23214290016
 
 <h3>Visão Geral</h3>
 
