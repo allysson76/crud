@@ -1,4 +1,4 @@
-# Documentação - Aplicativo de Compra de Jogos
+# Documentação - Aplicativo de Compra de Jogos - versão 2.0
 
 <h1>Integrantes do projeto</h1>
 
