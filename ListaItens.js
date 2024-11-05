@@ -5,7 +5,7 @@ function ListaItens({ itens, aoRemoverItem, aoEditarItem }) {
     <ul>
       {itens.map((item, indice) => (
         <li key={indice}>
-          <span>{item}</span>
+          <span className='lista_jogo'>{item}</span>
           <button onClick={() => aoEditarItem(indice)} className="botao-estilo2">Editar</button>
           <button onClick={() => aoRemoverItem(indice)} className="botao-estilo3">Remover</button>
         </li>

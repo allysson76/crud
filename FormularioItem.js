@@ -28,12 +28,12 @@ function FormularioItem({ aoAdicionarItem, estaEditando, itemAtual, aoAtualizarI
         value={valorEntrada}
         onChange={(e) => setValorEntrada(e.target.value)}
         placeholder="Digite um novo jogo"
-        className="input-estilizado"
+        className={`input-estilizado ${valorEntrada ? 'input-reduzido' : ''}`}
       />
       <button type="submit" className="botao-estilo1">
         {estaEditando ? 'Atualizar jogo' : 'Adicionar jogo'}
       </button>
-      <button class="enviar" type="button" className="botao-estilo1">
+      <button className="enviar" type="button">
         Enviar para Banco de Dados
       </button>
     </form>
